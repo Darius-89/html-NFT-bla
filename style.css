@@ -1,0 +1,169 @@
+body {
+ 
+   
+}
+
+.header__wrapper {
+    padding: 3rem;
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    
+}
+.header__link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 28px;
+    width: 82px;
+    height: 20px;
+
+
+}
+.btn {
+width: 75px;
+height: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: #FF3998;
+text-decoration: #FF3998;
+}
+
+.btn--hero {
+ padding: 10px 50px;
+ color: black;
+width: 100px;
+height: 30px;
+text-decoration: none;
+border-radius: 20px;
+border: 4px solid #d10a0a;
+}
+
+
+/* hero */
+
+.hero {
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+.hero__heading {
+    color: #FF3998;
+    font-size: 16px;
+   font-weight: 700px;
+ 
+}
+
+.hero__content {
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+font-size: 96px;
+font-weight: 900px ;
+padding-right: 120px;
+margin-top: 24px;
+margin-bottom: 36px;
+}
+.hero__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.p {
+    font-size: 20px;
+font-weight: 537px;
+padding-left: 80px;
+}
+
+.hero__right {
+max-height: 550px;
+height: 100%;
+
+}
+.hero__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main {
+    position: relative;
+    max-width: 1280px;
+   
+    margin: 0 auto;
+}
+.main img {
+width: 100%;
+margin: auto;
+}
+
+.banner {
+color: black;
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: left;
+margin-left: 100px;
+font-size: 40px;
+}
+.rel {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+/* press  */
+ 
+.column {
+   display: inline-flex;
+   margin: 10px;
+   margin-top: 80px;
+   max-width: 1240px;
+
+}
+/* case */
+
+
+
+.end {
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+
+.table {
+    width: 100%;
+ 
+}
+
+td {
+    padding:10px;
+ 
+    text-align: center;
+  
+  }
+ 
+  .footer {
+    text-align: right;
+    
+  }
